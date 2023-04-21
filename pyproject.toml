@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "re-video"
+version = "0.1.0"
+description = "A simple keyboard-driven video player with OCR capabilities"
+authors = ["rafael <rafael.avigad@nmtafe.wa.edu.au>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.7.0"
+opencv-python-headless = "^4.7.0"
+pytesseract = "^0.3.10"
+pyttsx3 = "^2.90"
+pynput = "^1.7.6"
+pyobjc = ">=8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
